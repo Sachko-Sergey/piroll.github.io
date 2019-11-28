@@ -1,0 +1,60 @@
+.footer {
+    padding: 100px 0;
+    background-color: #141414;
+    .footer__inner {
+        color: #fff;
+        .footer__col-list {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }    
+    }
+}
+
+.footer__col-one {
+    margin-right: 246px;
+    .footer__col-title {
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 0.18px;
+        margin-bottom: 27px;
+    }
+    .footer__col-copyright {
+        max-width: 225px;
+        color: #bcbcbc;
+        font-family: "Nunito Sans", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.07px;
+    }
+}
+
+.footer__col-one, .footer__col-two, .footer__col-three, .footer__col-four, .footer__col-five {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.footer__col-two {
+    margin-right: 145px;
+}
+
+.footer__col-two, .footer__col-three, .footer__col-four, .footer__col-five {
+    color: #bcbcbc;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.07px;
+    margin-right: 55px;
+}
+
+.footer__col-five {
+    margin-right: 0;
+}
+
+.mr {
+     margin-right: 135px;
+}

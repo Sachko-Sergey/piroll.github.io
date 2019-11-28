@@ -1,0 +1,39 @@
+.service {
+    padding: 100px 0 80px 0;
+    background: $gray;
+    .service__inner {
+        display: flex;
+        flex-wrap: wrap;
+        .service__item {
+            text-align: center;
+            flex-basis: 25%;
+            padding: 0 26px;
+            margin-bottom: 60px;
+            .service__item-icon {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                min-height: 47px;
+                margin-bottom: 30px;
+            }
+            .service__item-title {
+                color: #191919;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 12px;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 1.2px;
+                margin-bottom: 20px;
+            }
+            .service__item-text {
+                color: #787878;
+                font-family: "Nunito Sans", sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0.08px;
+            }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+// Variables
+
+@import "var";
+
+
+
+// Blocks
+
+@import "modals";
+@import "header";
+@import "about";
+@import "skills";
+@import "numbers";
+@import "work";
+@import "process";
+@import "service";
+@import "testimonials";
+@import "clients";
+@import "form";
+@import "footer";
+
+
+
+// font-family: 'Work Sans', sans-serif;
+// font-family: 'Nunito Sans', sans-serif;
+// font-family: 'Montserrat', sans-serif;
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+
+// button
+
+.button {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    background-color: $accent-color;
+    border: none;
+    padding: 22px 46px;
+    transition: background-color .2s linear;
+    -webkit-transition: background-color .2s linear;
+    -moz-transition: background-color .2s linear;
+    -ms-transition: background-color .2s linear;
+    -o-transition: background-color .2s linear;
+    &:hover {
+        background-color: #11aaa5;
+        cursor: pointer;
+    }
+}

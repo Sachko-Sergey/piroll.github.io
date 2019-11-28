@@ -1,0 +1,1 @@
+$(function(){new Swiper(".swiper-container",{pagination:{el:".swiper-pagination",dynamicBullets:!0,loop:!0},slidesPerView:1,clickable:!0,autoplay:{delay:3e3}})}),$(".menu-b-btn").on("click",function(){$(".menu__list").slideToggle()});

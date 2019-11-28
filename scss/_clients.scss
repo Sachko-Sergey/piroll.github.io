@@ -1,0 +1,9 @@
+.client {
+    padding: 64px 0;
+    .client-inner {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
