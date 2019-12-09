@@ -2,6 +2,7 @@
     padding: 100px 0;
     background-color: #141414;
     .footer__inner {
+        display: flex;
         color: #fff;
         .footer__col-list {
             padding: 0;
@@ -12,7 +13,7 @@
 }
 
 .footer__col-one {
-    margin-right: 246px;
+    flex-basis: 40%;
     .footer__col-title {
         color: #ffffff;
         font-family: 'Montserrat', sans-serif;
@@ -38,7 +39,7 @@
 }
 
 .footer__col-two {
-    margin-right: 145px;
+    flex-basis: 20%;
 }
 
 .footer__col-two, .footer__col-three, .footer__col-four, .footer__col-five {
@@ -48,13 +49,38 @@
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.07px;
-    margin-right: 55px;
+    flex-basis: 30%;
+}
+.footer__col-three, .footer__col-four, .footer__col-five {
+    flex-basis: 10%;
 }
 
 .footer__col-five {
     margin-right: 0;
 }
 
-.mr {
-     margin-right: 135px;
+@media (max-width: 800px) {
+    .footer__inner {
+        flex-wrap: wrap;
+        height: 250px;
+    }
+    .footer__col-one, .footer__col-two {
+        flex-basis: 50%;
+    }
+    .footer__col-three, .footer__col-four, .footer__col-five {
+        flex: 1 1 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer {
+        padding: 50px 0;
+    }
+    .footer__inner {
+        flex-wrap: wrap;
+        height: 530px;
+    }
+    .footer__col-one, .footer__col-two, .footer__col-three, .footer__col-four, .footer__col-five  {
+        flex-basis: 100%;
+    }
 }

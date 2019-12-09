@@ -59,3 +59,14 @@
         text-align: center;
     }
 }
+
+@media (max-width: 715px) {
+    .form-project {
+        .line-input {
+            .line-input_i {
+                width: 100%;
+                margin-right: 0;
+            }
+        }
+    }
+}

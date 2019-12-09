@@ -7,3 +7,23 @@
         justify-content: space-between;
     }
 }
+
+@media (max-width: 720px) {
+    .client-inner {
+        height: 300px;
+        .client-logo {
+            flex-basis: 50%;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .client-inner {
+        height: 500px;
+        .client-logo {
+            flex-basis: 100%;
+            text-align: center;
+        }
+    }
+}
