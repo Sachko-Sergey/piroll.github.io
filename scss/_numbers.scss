@@ -34,3 +34,33 @@
         }
     }
 }
+
+@media (max-width: 725px) {
+    .numbers__inner {
+        flex-wrap: wrap;
+        height: 150px;
+        .numbers__item {
+            justify-content: center;
+            width: 50%;
+        }
+    }
+}
+
+@media (max-width: 530px) {
+    .numbers {
+        // padding: 100px 0;
+        height: 500px;
+        .numbers__inner {
+            height: 460px;
+            flex-wrap: wrap;
+            .numbers__item {
+                width: 100%;
+                flex-direction: column;
+                text-align: center;
+                .numbers__item-icon{
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
