@@ -520,11 +520,23 @@
         line-height: 24px;
         letter-spacing: 0.08px; }
 
+@media (max-width: 900px) {
+  .service .service__inner .service__item {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    padding: 0 50px; } }
+
+@media (max-width: 700px) {
+  .service .service__inner .service__item {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    padding: 0; } }
+
 .testimonials {
   background: #10c9c3;
   padding: 178px 0 60px 0; }
   .testimonials .swiper-container {
-    width: 800px;
+    max-width: 800px;
     padding-bottom: 110px;
     cursor: pointer; }
     .testimonials .swiper-container .swiper-slide {

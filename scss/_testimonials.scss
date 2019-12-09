@@ -2,7 +2,7 @@
     background: $accent-color;
     padding: 178px 0 60px 0;
     .swiper-container {
-        width: 800px;
+        max-width: 800px;
         padding-bottom: 110px;
         cursor: pointer;
         .swiper-slide {
@@ -44,3 +44,17 @@
     opacity: 1;
     background: #fff;
 }
+
+// @media (max-width: 850px) {
+//     .testimonials {
+//         .swiper-container {
+            
+//             .swiper-slide {
+//                 .slide-text {
+//                     max-width: 620px;
+//                     margin: 0 auto;
+//                 }
+//             }
+//         }
+//     }
+// }
